@@ -1,7 +1,7 @@
 import { Rubik_Mono_One } from "next/font/google"
 import "./globals.css"
 
-export const Rubik80sFade = Rubik_Mono_One({
+const Rubik_Mono_one = Rubik_Mono_One({
   weight: "400",
   variable: "--font-rubik-80s-fade",
   subsets: ["cyrillic"],
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang='ru'>
       <body
-        className={`${Rubik80sFade.variable} 
+        className={`${Rubik_Mono_one.variable} 
        antialiased`}>
         {children}
       </body>

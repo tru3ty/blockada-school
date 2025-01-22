@@ -60,13 +60,13 @@ const FactPage = () => {
     return <div style={{ padding: "20px" }}>Загрузка...</div>
   }
 
-  const { title, text, img } = fact.data
+  const { title, text } = fact.data
 
   return (
     <>
       <div className='text-1xl font-bold m-2 bg-[#dd4122] rounded-3xl p-4 text-center'>
-        <h1 className='font'>{title}</h1>
-        <p className='font text-[12px]'>{text}</p>
+        <h1 className=''>{title}</h1>
+        <p className=' text-[12px]'>{text}</p>
         {/* {img && <img src={img} alt={title} style={{ maxWidth: "100%" }} />} */}
       </div>
       <div className=' flex justify-center text-start mb-4'>
