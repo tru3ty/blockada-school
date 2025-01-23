@@ -5,7 +5,7 @@ interface CounterProps {
 
 const Counter: React.FC<CounterProps> = ({ foundCount, totalCount }) => {
   return (
-    <div className=' text-1xl text-center text-[#171717]'>
+    <div className='text-[#fae6e6] flex flex-col justify-center text-center text-[14px] bg-[#545252] p-4 rounded-3xl m-2 '>
       <h2>Прогресс:</h2>
       {foundCount >= totalCount ? (
         <p>Вы нашли все факты! Подойдите к учителю за оценкой.</p>

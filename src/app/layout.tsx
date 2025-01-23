@@ -1,9 +1,9 @@
-import { Rubik_Mono_One } from "next/font/google"
+import { Caveat } from "next/font/google"
 import "./globals.css"
 
-const Rubik_Mono_one = Rubik_Mono_One({
+const Caveat_font = Caveat({
   weight: "400",
-  variable: "--font-rubik-80s-fade",
+  variable: "--font-caveat",
   subsets: ["cyrillic"],
 })
 
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang='ru'>
       <body
-        className={`${Rubik_Mono_one.variable} 
+        className={` ${Caveat_font.variable} 
        antialiased`}>
         {children}
       </body>
